@@ -21,4 +21,7 @@ public class Cons {
 	public static String SERVICE_CALL_PRE = "ServiceCallPre";
 	public static String SERVICE_CALL_POST = "ServiceCallPost";
 	public static String SERVICE_CALL_EXC = "ServiceCallExc";
+	
+	
+	
 }

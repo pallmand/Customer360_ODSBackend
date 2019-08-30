@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import com.ibm.thy.c360.restservice.service.ods.impl.SearchCustomerProfileServiceImpl;
 import com.ibm.thy.c360.restservice.service.ods.impl.SearchCustomerServiceImpl;
 
 @EnableTransactionManagement
@@ -19,6 +20,11 @@ public class Application {
 	@Bean
 	public SearchCustomerServiceImpl searchCustomerService() {
 		return new SearchCustomerServiceImpl(dataSource);
+	}
+	
+	@Bean
+	public SearchCustomerProfileServiceImpl searchCustomerProfileService() {
+		return new SearchCustomerProfileServiceImpl(dataSource);
 	}
 
 }
