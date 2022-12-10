@@ -7,7 +7,7 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 	<properties>
-		<springframework.version>4.3.25.RELEASE</springframework.version>
+		<springframework.version>6.0.0</springframework.version>
 		<jackson.library>2.7.5</jackson.library>
 		<log4j.version>2.11.1</log4j.version>
 		<springfox.version>2.9.2</springfox.version>
